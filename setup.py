@@ -21,7 +21,7 @@ setup(
         'click==6.7',
         'github3.py',
     ],
-    dependency_links = ['git+https://github.com/sigmavirus24/github3.py.git\
+    dependency_links = ['git+https://github.com/sigmavirus24/github3.py.git
     @b58ff53ce9607f71aeb06f46eefe991f83c5e83e#egg=github3.py'],
     entry_points={
         'console_scripts': [
