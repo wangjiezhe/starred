@@ -19,8 +19,9 @@ setup(
     platforms='any',
     install_requires=[
         'click==6.7',
-        'github3.py==1.0.0a4',
+        'github3.py',
     ],
+    dependency_links = ['git+https://github.com/sigmavirus24/github3.py.git@b58ff53ce9607f71aeb06f46eefe991f83c5e83e#egg=github3.py'],
     entry_points={
         'console_scripts': [
             'starred=starred:starred'
