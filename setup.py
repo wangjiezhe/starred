@@ -18,8 +18,8 @@ setup(
     py_modules=['starred'],
     platforms='any',
     install_requires=[
-        'click==6.7',
-        'github3.py==1.1.0',
+        'click',
+        'github3.py',
     ],
     entry_points={
         'console_scripts': [
